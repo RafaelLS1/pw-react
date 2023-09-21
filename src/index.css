@@ -5,9 +5,97 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(63,14,126);
+  background: linear-gradient(180deg, rgba(63,14,126,1) 0%, rgb(135, 71, 165) 100%, rgba(160,63,251,1) 100%);
+  min-height: 100vh;
+  
+  
+}
+ul{
+  list-style-type: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.chama{
+
+  background-color: transparent;
+  color: white;
+  width: 500px;
+  height: 200px;
+  justify-content:end; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  transform: translate(50%, 50%);
+  font-size: 25px;
+}
+
+.chama h1 span{
+  color: rgb(230, 94, 230, 0.767);
+}
+.chama p span{
+  color: rgb(230, 94, 230, 0.767);
+}
+.ul_home{
+  display: flex;
+ 
+}
+.img{
+  transform: translate(50%, 50%);
+}
+.lista_cont {
+  
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin-top: 10%;
+  height: 100vh; /* Isso garante que a div ocupe toda a altura da tela */
+  color: white;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  display: block;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  
+}
+
+.lista li {
+  display: flex;
+  margin: 50px 10px; /* Espaçamento entre os ícones, ajuste conforme necessário */
+  font-size: 30px;
+
+}
+
+.lista li a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s;
+}
+.lista li a:hover{
+  color: rgb(230, 94, 230, 0.767);
+}
+
+.wpp{
+  color: rgb(230, 94, 230, 0.767);
+  margin-right: 10px;
+}
+.git{
+  margin-right: 10px;
+  color: rgb(230, 94, 230, 0.767);
+}
+.env{
+  margin-right: 10px;
+  color: rgb(230, 94, 230, 0.767);
+}
+
+.carousel img {
+  max-width: 1700px;
+  height: 700px;
+  margin: 0 auto; /* Centralize horizontalmente a imagem */
+}
+
