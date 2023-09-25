@@ -50,8 +50,13 @@ code {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   margin-top: 10%;
-  height: 100vh; /* Isso garante que a div ocupe toda a altura da tela */
+  height: 450px;
+  width: 400px;
+  margin-left: 40%;
   color: white;
+  background-color: #2b3035;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
 
 .lista {
@@ -99,3 +104,14 @@ code {
   margin: 0 auto; /* Centralize horizontalmente a imagem */
 }
 
+.caption {
+  background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com transparência */
+  padding: 10px; /* Espaçamento interno para o conteúdo da legenda */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Sombra */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centralizar o texto horizontalmente */
+  max-width: 45%; /* Definir a largura máxima */
+  margin: 0 auto; /* Centralizar a legenda horizontalmente */
+  
+}
