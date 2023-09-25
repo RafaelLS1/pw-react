@@ -1,8 +1,12 @@
-import { GithubLogo, Envelope, WhatsappLogo } from "@phosphor-icons/react";
+import { GithubLogo, Envelope, WhatsappLogo, LinkedinLogo } from "@phosphor-icons/react";
 function Contatos() {
   return (
     <div className="lista_cont">
         <ul className="lista">
+        <li>
+            <LinkedinLogo className="git" size={32} />
+            <a href="https://www.linkedin.com/in/rafael-lima-da-silva-419bb1238/">Rafael Lima</a>
+        </li>
         <li>
             <GithubLogo className="git" size={32} />
             <a href="https://github.com/RafaelLS1">RafaelLS1</a>
