@@ -6,7 +6,7 @@ import { Alien, Code } from "@phosphor-icons/react";
 function Cabecalho(){
     return (
         <>
-      <Navbar bg="dark" data-bs-theme="dark" fixed='top'>
+      <Navbar bg="dark" data-bs-theme="dark" fixed='top' sticky='top'>
         <Container>
           <Navbar.Brand ><Code size={32} /></Navbar.Brand>
           <Nav className="me-auto">

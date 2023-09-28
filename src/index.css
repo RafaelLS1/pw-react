@@ -8,6 +8,7 @@ body {
   background: rgb(63,14,126);
   background: linear-gradient(180deg, rgba(63,14,126,1) 0%, rgb(135, 71, 165) 100%, rgba(160,63,251,1) 100%);
   min-height: 100vh;
+  backdrop-filter: blur(100px);
   
   
 }
@@ -21,10 +22,10 @@ code {
 }
 
 .chama{
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: transparent;
   color: white;
-  width: 500px;
+  width: 600px;
   height: 200px;
   justify-content:end; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -49,7 +50,7 @@ code {
   
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
-  margin-top: 10%;
+  margin-top: 5%;
   height: 450px;
   width: 400px;
   margin-left: 40%;
@@ -57,6 +58,7 @@ code {
   background-color: #2b3035;
   border-radius: 40px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 .lista {
@@ -80,6 +82,7 @@ code {
   text-decoration: none;
   color: white;
   transition: color 0.4s;
+  
 }
 .lista li a:hover{
   color: rgb(230, 94, 230, 0.767);
@@ -88,6 +91,7 @@ code {
 .wpp{
   color: rgb(230, 94, 230, 0.767);
   margin-right: 10px;
+  
 }
 .git{
   margin-right: 10px;
