@@ -5,8 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Footer(){
     return (
-        <>
-      <Navbar fixed="bottom" bg="dark" data-bs-theme="dark" className="bg-body-tertiary" >
+      <Navbar fixed="bottom"  bg="dark" data-bs-theme="dark" className="bg-body-tertiary" >
         <Container>
           <Navbar.Brand></Navbar.Brand>
           <Nav>
@@ -18,8 +17,7 @@ function Footer(){
           </Nav>
         </Container>
       </Navbar>
-      <br/>
-        </>
+        
         
     )   
 }

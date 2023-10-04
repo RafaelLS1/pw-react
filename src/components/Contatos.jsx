@@ -3,6 +3,9 @@ function Contatos() {
   return (
     <div className="lista_cont">
         <ul className="lista">
+          <li>
+            <a href="/Formulario">Entre em contato!</a>
+          </li>
         <li>
             <LinkedinLogo className="git" size={32} />
             <a href="https://www.linkedin.com/in/rafael-lima-da-silva-419bb1238/">Rafael Lima</a>

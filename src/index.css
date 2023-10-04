@@ -51,9 +51,9 @@ code {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   margin-top: 5%;
-  height: 450px;
-  width: 400px;
-  margin-left: 40%;
+  height: 550px;
+  width: 500px;
+  margin-left: 35%;
   color: white;
   background-color: #2b3035;
   border-radius: 40px;
@@ -118,4 +118,57 @@ code {
   max-width: 45%; /* Definir a largura máxima */
   margin: 0 auto; /* Centralizar a legenda horizontalmente */
   
+}
+
+.form{
+  text-align: center; /* Centralizar o texto horizontalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  margin-top: 5%;
+  height: 550px;
+  width: 500px;
+  margin-left: 35%;
+  color: white;
+  background-color: #2b3035;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+  
+}
+
+.titulo{
+  padding: 30px;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+.nome{
+  padding: 30px;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.pergunta{
+  padding: 30px;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.textareap{
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+.textarea{
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+.enviar{
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  width: 100px;
+  border-radius: 10px;
+  transition: color 0.8s, background-color 0.8s;
+}
+
+.enviar:hover{
+  background-color: rgb(112, 57, 138);
+  color: white;
 }

@@ -11,21 +11,23 @@ import {
   useLocation,
   BrowserRouter,
 } from "react-router-dom";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
     <BrowserRouter>
-
+      
       <Cabecalho />
-      <Footer />
 
-      <Routes>
-        
+      <Routes>        
         <Route path="/" element={<Home />} />
         <Route path="/Projetos" element={<Projetos />} />
         <Route path="/Contatos" element={<Contatos />} />
-
+        <Route path="/Formulario" element={<Formulario />} />
       </Routes>
+
+      <Footer />
+      
     </BrowserRouter>
   );
 }
